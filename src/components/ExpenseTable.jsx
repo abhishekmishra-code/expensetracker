@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useFilter } from '../hooks/useFilter'
-import ContextMenu from './contextMenu'
+import ContextMenu from './ContextMenu'
 
 export default function ExpenseTable({
   expenses,

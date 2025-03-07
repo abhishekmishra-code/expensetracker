@@ -116,7 +116,6 @@ export default function ExpenseTable({
                 onContextMenu={(e) => {
                   e.preventDefault()
                   setMenuPosition({ left: e.clientX + 4, top: e.clientY + 4 })
-                  setEditingRowId(id)
                   setRowID(id)
                   setData({ title, category, amount })
                 }}
